@@ -1,0 +1,2 @@
+reference_catalog_members,reference_members_eligible_in_query,candidate_count,overlap_count,candidate_catalog_agreement,eligible_reference_recovery,all_catalog_recovery,candidate_only_count,eligible_reference_only_count,interpretation
+1014,872,866,781,0.901847575058,0.895642201835,0.770216962525,85,91,"Agreement benchmark, not ground-truth accuracy; both analyses use Gaia DR3 and density-based clustering."

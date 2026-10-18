@@ -1,0 +1,30 @@
+{
+  "acquired_at_utc": "2026-07-10T17:12:49.668057+00:00",
+  "gaia": {
+    "service": "Gaia Archive TAP",
+    "table": "gaiadr3.gaia_source",
+    "job_id": "unknown",
+    "access_mode": "synchronous fallback after asynchronous HTTP 500",
+    "rows": 12520,
+    "query_path": "queries/pleiades_field.adql",
+    "query_sha256": "eb2ec713fedae960c9fcc7f9daca23c99dd432497923c4190718fe7b92537ab2",
+    "file": "data/raw/gaia_dr3_pleiades_field.csv",
+    "sha256": "18e6099e4fcf008006519ec715d33e5874ad3f12273ed3a78119342ebf85b044"
+  },
+  "reference": {
+    "service": "CDS VizieR",
+    "catalog": "J/A+A/686/A42",
+    "cluster_name": "Melotte_22",
+    "member_rows": 1721,
+    "member_file": "data/reference/hunt_reffert_2024_members.csv",
+    "member_sha256": "b123b3f8028e7cfafc0aff81ba9ecaf44fca255ee222b6c6eb02b5b4606022d3",
+    "cluster_file": "data/reference/hunt_reffert_2024_cluster.csv",
+    "cluster_sha256": "0646b76981f3481fcdad753f62e5af4f67e3d6710b4176062437e0c2440eb835",
+    "catalog_doi": "10.26093/cds/vizier.36860042",
+    "paper_doi": "10.1051/0004-6361/202348662"
+  },
+  "notes": [
+    "The Gaia snapshot is sorted by source_id after TAP retrieval.",
+    "The reference catalog is used only for post-clustering validation."
+  ]
+}

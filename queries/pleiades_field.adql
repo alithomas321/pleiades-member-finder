@@ -1,0 +1,46 @@
+SELECT
+    source_id,
+    ra,
+    dec,
+    l,
+    b,
+    parallax,
+    parallax_error,
+    parallax_over_error,
+    pmra,
+    pmra_error,
+    pmdec,
+    pmdec_error,
+    parallax_pmra_corr,
+    parallax_pmdec_corr,
+    pmra_pmdec_corr,
+    ruwe,
+    visibility_periods_used,
+    phot_g_mean_mag,
+    phot_bp_mean_mag,
+    phot_rp_mean_mag,
+    phot_g_mean_flux_over_error,
+    phot_bp_mean_flux_over_error,
+    phot_rp_mean_flux_over_error,
+    phot_bp_rp_excess_factor,
+    bp_rp,
+    radial_velocity,
+    radial_velocity_error
+FROM gaiadr3.gaia_source
+WHERE 1 = CONTAINS(
+    POINT('ICRS', ra, dec),
+    CIRCLE('ICRS', 56.75, 24.1167, 5.0)
+)
+AND parallax BETWEEN 2 AND 15
+AND pmra BETWEEN -20 AND 50
+AND pmdec BETWEEN -80 AND -10
+AND parallax_over_error > 10
+AND pmra_error < 1
+AND pmdec_error < 1
+AND ruwe < 1.4
+AND visibility_periods_used > 8
+AND phot_g_mean_mag < 20
+AND bp_rp IS NOT NULL
+AND phot_bp_mean_flux_over_error > 10
+AND phot_rp_mean_flux_over_error > 10
+ORDER BY source_id

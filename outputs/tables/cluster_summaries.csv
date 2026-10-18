@@ -1,0 +1,3 @@
+cluster_label,count,parallax_median,pmra_median,pmdec_median,is_selected_target
+0,8030,2.71156196521,6.09028733843,-17.2017630721,False
+1,1288,7.34412969948,19.8376813558,-45.2852506753,True

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "result_label": "Pleiades kinematic candidate members",
+  "sample": {
+    "quality_filtered_sources": 12520,
+    "target_component_sources": 1288,
+    "noise_sources": 3202,
+    "candidate_sources": 866
+  },
+  "method": {
+    "features": [
+      "parallax",
+      "pmra",
+      "pmdec"
+    ],
+    "scaler": "RobustScaler",
+    "quantile_range": [
+      10.0,
+      90.0
+    ],
+    "clusterer": "sklearn.cluster.HDBSCAN",
+    "min_cluster_size": 50,
+    "min_samples": 10,
+    "candidate_strength_threshold": 0.5,
+    "target_cluster_label": 1,
+    "warning": "Assignment strength is not a calibrated membership probability."
+  },
+  "candidate_statistics": {
+    "count": 866,
+    "cluster_strength_median": 0.7796978398185793,
+    "parallax_median_mas": 7.368072189635,
+    "parallax_robust_sigma_mas": 0.15166449250451133,
+    "pmra_median_mas_per_yr": 19.947363113450002,
+    "pmra_robust_sigma_mas_per_yr": 1.0017513948216628,
+    "pmdec_median_mas_per_yr": -45.39831887225,
+    "pmdec_robust_sigma_mas_per_yr": 1.109946382039316,
+    "inverse_parallax_distance_median_pc": 135.7207115129509,
+    "vlbi_distance_pc": 136.2,
+    "vlbi_distance_error_pc": 1.2,
+    "distance_difference_pc": -0.47928848704907523,
+    "reference_parallax_mas": 7.37826421,
+    "reference_pmra_mas_per_yr": 19.95516294,
+    "reference_pmdec_mas_per_yr": -45.45667271,
+    "parallax_difference_from_reference_mas": -0.010192020365000332,
+    "pmra_difference_from_reference_mas_per_yr": -0.007799826549998556,
+    "pmdec_difference_from_reference_mas_per_yr": 0.058353837749997695,
+    "radial_velocity_quality_count": 229,
+    "radial_velocity_median_km_per_s": 5.565687,
+    "radial_velocity_robust_sigma_km_per_s": 1.6255508094,
+    "literature_radial_velocity_km_per_s": 5.52,
+    "literature_radial_velocity_error_km_per_s": 0.31,
+    "notes": [
+      "Inverse-parallax distance is descriptive, not a Bayesian distance estimate.",
+      "Gaia DR3 parallax zero-point corrections were not applied.",
+      "The radial-velocity summary can be broadened by binaries and contaminants."
+    ]
+  },
+  "reference_agreement": {
+    "reference_catalog_members": 1014,
+    "reference_members_eligible_in_query": 872,
+    "candidate_count": 866,
+    "overlap_count": 781,
+    "candidate_catalog_agreement": 0.9018475750577367,
+    "eligible_reference_recovery": 0.8956422018348624,
+    "all_catalog_recovery": 0.7702169625246549,
+    "candidate_only_count": 85,
+    "eligible_reference_only_count": 91,
+    "interpretation": "Agreement benchmark, not ground-truth accuracy; both analyses use Gaia DR3 and density-based clustering."
+  },
+  "stability": {
+    "min_cluster_sizes_tested": [
+      20,
+      40,
+      50,
+      80,
+      100
+    ],
+    "candidate_count_min": 866,
+    "candidate_count_max": 866,
+    "jaccard_min": 1.0,
+    "jaccard_max": 1.0,
+    "iqr_scaler_candidate_count": 857,
+    "iqr_scaler_jaccard": 0.9759174311926605
+  },
+  "data_provenance": {
+    "gaia_sha256": "18e6099e4fcf008006519ec715d33e5874ad3f12273ed3a78119342ebf85b044",
+    "reference_members_sha256": "b123b3f8028e7cfafc0aff81ba9ecaf44fca255ee222b6c6eb02b5b4606022d3",
+    "reference_cluster_sha256": "0646b76981f3481fcdad753f62e5af4f67e3d6710b4176062437e0c2440eb835"
+  }
+}

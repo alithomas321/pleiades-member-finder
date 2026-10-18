@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="778.5806pt" height="495.399766pt" viewBox="0 0 778.5806 495.399766" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-18T21:56:21.439389</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Gaia Pleiades continuation</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 495.399766 
+L 778.5806 495.399766 
+L 778.5806 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 20.16 193.803705 
+L 572.840229 193.803705 
+L 572.840229 172.119412 
+L 20.16 172.119412 
+z
+" clip-path="url(#p865b32dfca)" style="fill: #006c72"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 572.840229 193.803705 
+L 632.991086 193.803705 
+L 632.991086 172.119412 
+L 572.840229 172.119412 
+z
+" clip-path="url(#p865b32dfca)" style="fill: #a96500"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 20.16 263.072973 
+L 572.840229 263.072973 
+L 572.840229 241.388681 
+L 20.16 241.388681 
+z
+" clip-path="url(#p865b32dfca)" style="fill: #006c72"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 572.840229 263.072973 
+L 637.237029 263.072973 
+L 637.237029 241.388681 
+L 572.840229 241.388681 
+z
+" clip-path="url(#p865b32dfca)" style="fill: #7e8c90"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 20.16 332.342242 
+L 572.840229 332.342242 
+L 572.840229 310.657949 
+L 20.16 310.657949 
+z
+" clip-path="url(#p865b32dfca)" style="fill: #006c72"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 572.840229 332.342242 
+L 737.724343 332.342242 
+L 737.724343 310.657949 
+L 572.840229 310.657949 
+z
+" clip-path="url(#p865b32dfca)" style="fill: #7e8c90"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162c36" x="20.16" y="162.481949" transform="rotate(-0 20.16 162.481949)">This selection</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="31.482514" y="185.81941" transform="rotate(-0 31.482514 185.81941)">781 shared</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162c36" x="638.652343" y="185.818981" transform="rotate(-0 638.652343 185.818981)">866</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162c36" x="20.16" y="207.055217" transform="rotate(-0 20.16 207.055217)">781 shared / 866 candidates = 90.2%</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162c36" x="20.16" y="231.751217" transform="rotate(-0 20.16 231.751217)">Reference, in snapshot</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="31.482514" y="255.088679" transform="rotate(-0 31.482514 255.088679)">781 shared</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162c36" x="642.898286" y="255.088249" transform="rotate(-0 642.898286 255.088249)">872</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162c36" x="20.16" y="276.324486" transform="rotate(-0 20.16 276.324486)">781 shared / 872 eligible reference = 89.6%</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162c36" x="20.16" y="301.020486" transform="rotate(-0 20.16 301.020486)">Reference, full subset</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="31.482514" y="324.357947" transform="rotate(-0 31.482514 324.357947)">781 shared</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162c36" x="743.3856" y="324.357517" transform="rotate(-0 743.3856 324.357517)">1014</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162c36" x="20.16" y="345.593754" transform="rotate(-0 20.16 345.593754)">781 shared / 1,014 reference = 77.0%</text>
+   </g>
+  </g>
+  <g id="text_13">
+   <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #006c72" x="7.2" y="14.797656" transform="rotate(-0 7.2 14.797656)">A COMPARISON WITH EXPLICIT DENOMINATORS</text>
+  </g>
+  <g id="text_14">
+   <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #162c36" x="7.2" y="42.517656" transform="rotate(-0 7.2 42.517656)">Overlap is evidence. It is not accuracy.</text>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162c36" x="7.2" y="65.197656" transform="rotate(-0 7.2 65.197656)">Hunt &amp; Reffert (2024): catalog score ≥ 0.5, within the estimated King tidal radius.</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #162c36" transform="translate(20.16 414.097656)">85 candidate-only and 91 eligible-reference-only sources are disagreements, not known errors.</text>
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #162c36" transform="translate(20.16 430.597656)">142 reference sources are absent from the filtered input and cannot be recovered by this run.</text>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162c36" x="7.2" y="486.037656" transform="rotate(-0 7.2 486.037656)">Archived Gaia DR3 • ESA/Gaia/DPAC • Analysis: Alison Thomas, with AI assistance</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p865b32dfca">
+   <rect x="20.16" y="140.797656" width="743.04" height="246.96"/>
+  </clipPath>
+ </defs>
+</svg>

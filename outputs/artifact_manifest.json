@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "files": {
+    "data/processed/pleiades_candidates.csv": "4452c87525a17280d213b73981bdc1d7b75cfc0e113d55663ebe1324da0c24f8",
+    "data/processed/pleiades_field_clustered.csv": "1ce6465c832a98c657f3533ce84c3012497fd383e22ff76d379efc198b2ee08e",
+    "outputs/RESULTS.md": "9b71f6f01eec3625f5738f50f1f08e7359b08ee831994abb052325f2f9374291",
+    "outputs/figures/agreement.png": "490d48075672712c6f89dad44a72cd46d716b2b3287b8b11c550f0b18e305842",
+    "outputs/figures/assignment_strength.png": "779ac37be394dc4248c0257ce5ab21a93d0d75388f1945ab626c73cf8085a021",
+    "outputs/figures/color_magnitude_diagram.png": "beacdfbc4d23bb31f203c402d86a6d23d2c8a368905ca6d120fe88c4765c3935",
+    "outputs/figures/parallax.png": "4c4a9155add55180721a6cc4559127a9649c9cc2e5eeab23fc0cafb7f52f10d0",
+    "outputs/figures/proper_motion.png": "0a05bda4b1a3977567710d91f5dda8121a8ec3558bd1fad128c27c81faf8154f",
+    "outputs/figures/sensitivity.png": "31cff7800e5704b9215157c1feb7cc7f4d8943be43be4cb6fb5a60f2b7bf8226",
+    "outputs/figures/sky_distribution.png": "c443946ccb8a0a6a6e3e11bff530e74fb58918aa059812d0f8ccccd5f66f5e75",
+    "outputs/hdbscan_model.joblib": "cabc4b5acb368d27e6d2443cb431735f12ff52031f4e40612d9c9235870042c7",
+    "outputs/metrics.json": "9892bf7aa996d0590fe4791e8c3738afaa7932ecbfb889f0cefd112b20c3e23c",
+    "outputs/tables/catalog_agreement.csv": "166f86694f5d0aa65df506b6078917ae0f6d3f53efffc5befdda3a8aaf5f7bda",
+    "outputs/tables/cluster_summaries.csv": "e46ef3f187627f6c16d8b03c59bcffa761783a0d302b128a4cff4b3ceb2f9f74",
+    "outputs/tables/parameter_sensitivity.csv": "df78d44a25761c23360779335c4b503634b3fa88c203cf688077e0401068e5b6"
+  }
+}
