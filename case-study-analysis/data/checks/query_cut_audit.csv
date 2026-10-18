@@ -1,0 +1,14 @@
+cut,rows_checked,passing_rows,failing_rows
+spherical_separation_deg <= 5,12520,12520,0
+2 <= parallax <= 15,12520,12520,0
+-20 <= pmra <= 50,12520,12520,0
+-80 <= pmdec <= -10,12520,12520,0
+parallax_over_error > 10,12520,12520,0
+pmra_error < 1,12520,12520,0
+pmdec_error < 1,12520,12520,0
+ruwe < 1.4,12520,12520,0
+visibility_periods_used > 8,12520,12520,0
+phot_g_mean_mag < 20,12520,12520,0
+bp_rp IS NOT NULL,12520,12520,0
+phot_bp_mean_flux_over_error > 10,12520,12520,0
+phot_rp_mean_flux_over_error > 10,12520,12520,0

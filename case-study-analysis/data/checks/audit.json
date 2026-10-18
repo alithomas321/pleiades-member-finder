@@ -1,0 +1,68 @@
+{
+  "script_sha256": "db73b73539cfbcb7fe3e4ede04bd0c7f71ad1e12bb17936460937053da8c2bc5",
+  "protocol_sha256": "7ca7f05276c651c956ed2d6467da8ae3ae13109e5306ee429608298d10959df0",
+  "inputs": {
+    "analysis/reproduction/data/raw/gaia_dr3_pleiades_field.csv": "18e6099e4fcf008006519ec715d33e5874ad3f12273ed3a78119342ebf85b044",
+    "analysis/reproduction/data/reference/hunt_reffert_2024_members.csv": "b123b3f8028e7cfafc0aff81ba9ecaf44fca255ee222b6c6eb02b5b4606022d3",
+    "analysis/reproduction/queries/pleiades_field.adql": "eb2ec713fedae960c9fcc7f9daca23c99dd432497923c4190718fe7b92537ab2",
+    "analysis/reproduction/uv.lock": "c05d84b361aef17fc78d2a47dfebf43a223342073b20488bea076f331df86f85",
+    "analysis/reproduction/src/gaia_pleiades/clustering.py": "7501038cc74e2f9ff10e0e18737b58b8ba6d140649bc704b6e876ce19889f299",
+    "analysis/reproduction/src/gaia_pleiades/config.py": "ec731f654c6f5bbc10be928bd87684f7c2941f090031fd8bd65e36d4431b06f6",
+    "analysis/reproduction/src/gaia_pleiades/data.py": "7433a60d59c618f073300d5973e00731e22cff8d68b86383982af42927ff60b5"
+  },
+  "snapshot_acquired_at_utc": "2026-07-10T17:12:49.668057+00:00",
+  "retained_rows": 12520,
+  "unique_source_ids": 12520,
+  "reference_rows": 1721,
+  "filtered_reference_ids": 1014,
+  "reference_in_snapshot": 872,
+  "reference_absent_from_snapshot": 142,
+  "spherical_separation_deg": {
+    "total_rows": 12520,
+    "finite_rows": 12520,
+    "min": 0.021619133522538605,
+    "p05": 0.8575360303175981,
+    "p25": 2.2307280044055924,
+    "median": 3.367688198749741,
+    "p75": 4.249212757868464,
+    "p95": 4.85277798469209,
+    "max": 4.99984980607872
+  },
+  "clustering_feature_nonfinite_values": 0,
+  "all_committed_query_cuts_pass": true,
+  "correlation_terms_present": [
+    "parallax_pmra_corr",
+    "parallax_pmdec_corr",
+    "pmra_pmdec_corr"
+  ],
+  "correlation_terms_missing_rows": {
+    "parallax_pmra_corr": 0,
+    "parallax_pmdec_corr": 0,
+    "pmra_pmdec_corr": 0
+  },
+  "main_candidate_count": 866,
+  "identical_independent_min_samples_10_reimplementation": true,
+  "rectangle_center": [
+    7.342143906020558,
+    20.0,
+    -50.0
+  ],
+  "rectangle_half_widths": [
+    1,
+    5,
+    10
+  ],
+  "caveats": [
+    "The input is an already filtered snapshot, not the complete field; this audit verifies retained rows only.",
+    "Absent filtered-reference IDs cannot be assigned cut-failure reasons from these files.",
+    "Catalog overlap is not accuracy: both analyses use Gaia DR3 and density clustering.",
+    "Assignment strength is not a calibrated astrophysical membership probability.",
+    "The three pairwise astrometric correlation columns are present; no error propagation was undertaken in this fixed sensitivity scope.",
+    "The PM-only ablation still uses the parallax-prefiltered snapshot and changes only clustering inputs.",
+    "Alternative assignment-strength thresholds are model-specific conventions; comparisons do not rank scientific correctness.",
+    "The simple rectangle uses the external anchor, including pmDec=-50, not an outcome-tuned center.",
+    "RV is held out from clustering, but only a bright subset has usable values; CMD is partly coupled through parallax and photometric preselection."
+  ],
+  "public_package_note": "Local machine details omitted; scientific script and numerical tables retained. Original protocol hash is recorded separately.",
+  "original_protocol_sha256": "37b996f87397df490c37ec80c687ad40a30023b6667f9bc5c689e4b36a447ccf"
+}

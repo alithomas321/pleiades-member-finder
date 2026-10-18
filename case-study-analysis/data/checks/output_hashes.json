@@ -1,0 +1,14 @@
+{
+  "alternative_component_summaries.csv": "b621683d9d6f38fa155a77a261e34a309f4d9c8c5e5b65e3e06880ec3eb76647",
+  "audit.json": "255436dadea3e20540ae40609656de933606d1bece44e70f6a9e1c1fe98cf2c9",
+  "measurement_distributions.csv": "262e0db1f0d624add68c7dda1d380a4d066d488508b1a66eb051c20c4f8b127b",
+  "missingness.csv": "d8677ab8c8ad4fa09ee23c9a207334525b153b92ec4c1af2b23aac8c96167628",
+  "query_cut_audit.csv": "2e470fd7ba6ddb6deb60621e73b80032137dadb65fb0fe1849511f80a2e027bf",
+  "radial_velocity_availability.csv": "2c1f64ee73d67dc5f5925874961b125ac9015d90dafa657aeea0513395c2e7c2",
+  "reference_absent_from_snapshot.csv": "661667ea3e1f736032ccdbf502044fe008e0805b93b73fed13d6f3d3c4c38d2a",
+  "sensitivity_candidate_ids.csv": "5dec572d6f655ed2e55eec5b46c397e336481d9e6b004612bc1d228ee4150aaa",
+  "sensitivity_summary.csv": "65b73a7cbe0480c993aef73c7f4cf4bc79922772a5fd80a15dc763b6fa860991",
+  "teaching_examples.csv": "40120d5f35db7aba72766ac0ae1a2bf5b0a72474051dc602e9b319f9ff142168",
+  "teaching_examples.json": "267857c1bbab6adf6f68fa8b8b05b8fc9adc81182967674e87a8c80d14b55ee5",
+  "threshold_sensitivity.csv": "49718555601de210596fde14cf8be23cae11618ccf75183f6c8f39d61b527b82"
+}
